@@ -25,3 +25,5 @@ SUMMARY OF RESULTS AND KEY FINDINGS:
 - Both the PCA-to-NN and 1D CNN model provide a test accuracy of 85-90%.
 - The PCA-to-NN model provides stronger robustness to noise and is quicker to train.
 - The 1D CNN model is weaker to noise, however, makes more accurate predictions even when wrong, that is, when the model is wrong, its incorrect labels are closer to the actual. For example, the PCA-to-NN model would sometimes mistake A_20 as C_80, when the 1D CNN would only mistake A_20 as A_40. It is much more preferable to be slightly wrong about damage but correct about location than it is to be drastically wrong about both. 
+
+The Optimized Models are saved as .keras in /results
